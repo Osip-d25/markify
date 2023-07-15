@@ -85,7 +85,7 @@ h6 {
 .footer__support,
 .header__button,
 .menu-list__link {
-  font-family: Open Sans;
+  font-family: Open Sans, sans-serif;
   font-style: normal;
   line-height: 150%;
 }
@@ -94,7 +94,7 @@ h6 {
 .footer__title,
 .title,
 .wrap__title {
-  font-family: Exo;
+  font-family: Exo, sans-serif;
   font-style: normal;
   font-weight: 700;
   line-height: 140%;
@@ -1097,6 +1097,10 @@ body {
     grid-template-columns: 1fr;
   }
 
+  .about__info {
+    padding: 0;
+  }
+
   .about__info .title {
     font-size: 18px;
   }
@@ -1142,6 +1146,7 @@ body {
 
   .choose__title {
     font-size: 28px;
+    text-align: center;
   }
 }
 
